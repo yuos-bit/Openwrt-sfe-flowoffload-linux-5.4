@@ -119,7 +119,7 @@
  
  /*
   * Limit the use of PFMEMALLOC reserves to those protocols that implement
-@@ -4733,7 +4744,9 @@ static int __netif_receive_skb_core(stru
+@@ -4733,7 +4770,6 @@ static int __netif_receive_skb_core(stru
  	bool deliver_exact = false;
  	int ret = NET_RX_DROP;
  	__be16 type;
